@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="container">
+  <h1> Range Slider</h1>
+  <h2 data-total="0" class='grand-total'>Grand Total: 0</h2>
+  <ul>
+    <li>
+      <a data-value="1" href="#panel1">1x</a>
+    </li>
+    <li>
+      <a data-value="2" href="#panel2">2x</a>
+    </li>
+    <li>
+      <a data-value="3" href="#panel3">3x</a>
+    </li>
+    <li>
+      <a data-value="4" href="#panel4">4x</a>
+    </li>
+  </ul>
+  <!-- <div role="tablist" class="buttons">
+    <button role="tab" id="one" class="one" value="1">1x</button>
+    <button role="tab" id="two" class="two" value="2">2x</button>
+    <button role="tab" id="three" class="three" value="3">3x</button>
+    <button role="tab" id="four" class="four" value="4">4x</button>
+  </div> -->
+  <div id="panel1" aria-labelledby="panel1" class="range-slider panel 1x">
+    <div class="total">Total: 0</div>
+    <label for="rangeSlider">1x Range Slider</label>
+    <input class="sliderRange" data-value="1" disabled type="range" id="rangeSlider" name="slider" min="0" max="100" step="10" value="0" />
+    <div class="value">Escalator Total: 0</div>
+  </div>
+  <div id="panel2" aria-labelledby="panel2" class="range-slider panel 2x">
+    <div class="total">Total: 0</div>
+    <label for="rangeSlider">2x Range Slider</label>
+    <input class="sliderRange" data-value="2" disabled type="range" id="rangeSlider" name="slider" min="0" max="100" step="10" value="0" />
+    <div class="value">Escalator Total: 0</div>
+  </div>
+  <div id="panel3" aria-labelledby="panel3" class="range-slider panel 3x">
+    <div class="total">Total: 0</div>
+    <label for="rangeSlider">3x Range Slider</label>
+    <input class="sliderRange" data-value="3" disabled type="range" id="rangeSlider" name="slider" min="0" max="100" step="10" value="0" />
+    <div class="value">Escalator Total: 0</div>
+  </div>
+  <div id="panel4" aria-labelledby="panel4" class="range-slider panel 4x">
+    <div class="total">Total: 0</div>
+    <label for="rangeSlider">4x Range Slider</label>
+    <input class="sliderRange" data-value="4" disabled type="range" id="rangeSlider" name="slider" min="0" max="100" step="10" value="0" />
+    <div class="value">Escalator Total: 0</div>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

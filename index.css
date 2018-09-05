@@ -1,0 +1,58 @@
+body {
+  background-color: #eee;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.container {
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 48px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-flex;
+}
+
+a {
+  border: 2px solid black;
+  padding: 20px 40px;
+  margin: 0 20px;
+  transition: 0.2s ease-out;
+  font-size: 20px;
+  transform: scale(1);
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  background-color: aquamarine;
+}
+
+a[aria-selected="true"] {
+  transition: 0.2s ease-in;
+  background-color: aquamarine;
+  transform: scale(1.1);
+}
+
+.buttons {
+  margin-bottom: 32px;
+}
+
+.value, .total {
+  margin: 40px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
